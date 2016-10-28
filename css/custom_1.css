@@ -132,7 +132,7 @@ body {
 }
 
 .custom-header nav span.custom-current:before {
-	content: '\27a6';
+	content: '\1F3E0';
 }
 
 

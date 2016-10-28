@@ -1,22 +1,18 @@
-var codropsEvents = {
-	'11-21-2013' : '<a href="http://www.wincalendar.com/Great-American-Smokeout">Great American Smokeout</a>',
-	'11-13-2013' : '<span>Ashura [An example of an complete date event (11-13-2013)]</span>',
-	'11-11-2013' : '<a href="http://www.wincalendar.com/Remembrance-Day">Remembrance Day (Canada)</a>',
-	'11-04-2013' : '<span>Islamic New Year</span>',
-	'11-03-2013' : '<a href="http://www.wincalendar.com/Daylight-Saving-Time-Ends">Daylight Saving Time Ends</a>',
-	'11-01-2013' : '<span>All Saints Day</span>',
-	'12-25-YYYY' : '<span>Christmas Day [Date : 12-25-YYYY]</span>',
-	'01-01-YYYY' : '<span>New Year\'s Eve (Event repeats every YEAR)</span>',
-	'MM-02-2013' : '<span>Yeah, Monthly [MM-02-2013]</span>',
-	'MM-07-YYYY' : '<span>[MM-07-YYYY], Monthly and Yearly</span>',
-	'11-DD-2014' : {content : '<span>Ex: {\'11-DD-2014\' : {content : \'Something\', endDate : 20}}</span>', endDate : 20},
-	'02-DD-2014' : {content : '<span>Ex: {\'02-DD-2014\' : {content : \'Something\', startDate : 10, endDate : 20}}</span>', startDate : 10, endDate : 20},
-	'12-DD-YYYY' : '<span>[12-DD-YYYY] Whole month and Year</span>',
-	'TODAY' : '<span>Today, [Date : \'TODAY\']</span>',
-	'10-16-2014': ['<a href="">event one</a>', '<span>event two</span>'],
-	'10-DD-YYYY' : [
-		{content : '<span>Ex: {\'10-DD-2014\' : {content : \'Something\', startDate : 10, endDate : 20}}</span>', startDate : 10, endDate : 20},
-		{content : '<span>Ex: {\'10-DD-2014\' : {content : \'Something\', endDate : 20}}</span>', endDate: 20},
-	]
+var eventData = {
+  'TODAY' : '<span>Today</span>',
+  '10-DD-YYYY' : [
+    {content : '<span>HKG - DEL</span>', startDate : 3, endDate : 5},
+    {content : '<span>HKG - SIN</span>', startDate : 8, endDate : 8},
+    {content : '<span>HKG - TPE</span>', startDate : 10, endDate : 10},
+    {content : '<span>TPE - HKG</span>', startDate : 11, endDate : 11},
+    {content : '<span>HKG - TPE</span>', startDate : 13, endDate : 13},
+    {content : '<span>無老鍋</span>', startDate : 13, endDate : 13},
+    {content : '<span>TPE - NRT - HKG</span>', startDate : 14, endDate : 14},
+    {content : '<span>HKG - CDG</span>', startDate : 17, endDate : 20},
+    {content : '<span>HKG - NRT</span>', startDate : 25, endDate : 25},
+    {content : '<span>NRT - HKG</span>', startDate : 26, endDate : 26},
+    {content : '<span>AEU</span>', startDate : 28, endDate : 28, startTime: '08:30', endTime: '17:30'},
+    {content : '<span>HKG - TPE</span>', startDate : 31, endDate : 31},
+  ]
 
 };
